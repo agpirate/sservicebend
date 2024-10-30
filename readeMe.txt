@@ -1,0 +1,41 @@
+
+
+
+Create Directory
+0. install nodejs(20)++ npm and yarn globally (container)
+
+//---------------------
+1.cd directory_
+2. npm init ( initialize the node_modules and build packages.json)
+//---------installing libraries
+3. npm install express //one by one 
+3. copy existing packages.json (dependencies list) && npm install
+
+//----build server.js ( ) (with main_commands and express_uses)
+
+//// and run init
+node server.js
+
+
+
+
+//------------
+nodejs <20
+
+required.....
+
+    type:'module' ...addedd into packages.json(since it doesn't support import _ modules /// unless told to)
+    importing modules_paths .... "../directory/jsfile.js"
+
+
+    ////use .env
+    npm install dotenv () ...if it has been inside the packages.json ( it auto install ,,if not do this)
+    .env (file with all global variables) 
+        === process.env.Variable_Name
+
+//---------file.js including (exports ?)
+
+            1) module.exports = 'file_Object/class/function' -------- const a = require('file_Object/class/function .js')
+
+            2) exports {a,b,c}
+            const a = require('.../.js')
